@@ -15,14 +15,16 @@ html,body{
     background: url(../img/trees.jpg) center;
     background-size: cover;
     color: cornsilk;
-    height: 91%;
+    height: 100%;
     margin: 0;
+    text-align: center;
 }
 
 /* section cover */
-
-#cover > a{
-    text-align: center;
+#cover a i{
+    background-color: maroon;
+    margin: 0;
+    
 }
 
 .title-btn{
@@ -32,14 +34,8 @@ html,body{
     padding-top: 1%;
 
 }
-#cover .first{
-    position: absolute;
-    margin-left: 33%;
-}
-#cover .second{
-    position: absolute;
-    margin-left:53%;
-}
+
+
 
 .moto{
     padding-top: 18%;
