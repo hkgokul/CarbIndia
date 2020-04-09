@@ -14,7 +14,7 @@ html,body{
 #cover{
     background: url(../img/trees.jpg) center;
     background-size: cover;
-    color: cornsilk;
+    color: lemonchiffon;
     height: 100%;
     margin: 0;
     text-align: center;
@@ -29,7 +29,7 @@ html,body{
 
 .moto{
     padding-top: 18%;
-    color: lemonchiffon;
+    color: ;
     text-align: center;
 }
 
@@ -86,6 +86,10 @@ html,body{
 .green-underline{
     color: chocolate;
     border-bottom: solid springgreen 3px;
+}
+
+.bold-orange{
+    color: chocolate;
 }
 
 /* Navbar */
