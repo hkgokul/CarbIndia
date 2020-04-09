@@ -22,21 +22,30 @@ html,body{
 
 /* section cover */
 #cover a i{
-    background-color: maroon;
     margin: 0;
-    
+    padding-top: 2%;
 }
 
-.title-btn{
+.title-buttons{
     margin: 0;
+    text-align: center;
+    padding-top: 2%;
     position: relative;
-    font-size: 12px;
-    padding-top: 1%;
-
 }
-
-
-
+.title-buttons .first{
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20%;
+    margin-left: 30%;
+    position: absolute;
+}
+.title-buttons .second{
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20%;
+    margin-left: 45%;
+    position: absolute;
+}
 .moto{
     padding-top: 18%;
     color: lemonchiffon;
@@ -45,11 +54,13 @@ html,body{
 
 /* Buttons */
 
-.title-btn .first{
-    padding-top: 10% 0 20% 0;
-    margin-left: 33%;
+.btn-info{
+    background-color:blueviolet;
     font-family:Nunito-Regular ;
-    
+    border: 1px solid   rgba(194, 94, 94, 0.952);
+    color: lemonchiffon;
+    box-shadow: 0px 1px 6px rgba(0,0,0,.175);
+
 }
 .btn-lg{
     background-color: rgba(0,0,0,0);
