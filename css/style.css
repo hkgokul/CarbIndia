@@ -26,42 +26,20 @@ html,body{
     padding-top: 2%;
 }
 
-.title-buttons{
-    margin-left: 70%;
-    text-align: center;
-    padding-top: 15%;
-    position: relative;
-}
-.title-buttons .first{
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 20%;
-    margin-left: 10%;
-    position: absolute;
-}
-.title-buttons .second{
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 20%;
-    margin-left: 58%;
-    position: absolute;
-}
+
 .moto{
     padding-top: 18%;
     color: lemonchiffon;
     text-align: center;
 }
 
+.inn{
+    margin-left: 5%;
+    padding-top: 3%;
+}
+
 /* Buttons */
 
-.btn-info{
-    background-color:rgba(1, 66, 4, 0.842);
-    font-family:Nunito-Regular ;
-    border: 1px solid   rgba(1, 66, 4, 0.842);
-    color: lemonchiffon;
-    box-shadow: 0px 1px 6px rgba(0,0,0,.175);
-
-}
 .btn-lg{
     background-color: rgba(0,0,0,0);
     font-family:Nunito-Regular;
