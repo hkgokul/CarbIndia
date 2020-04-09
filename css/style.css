@@ -12,7 +12,6 @@ html,body{
 }
 
 #cover{
-    height: 100%;
     background: url(../img/trees.jpg) center;
     background-size: cover;
     color: cornsilk;
@@ -20,8 +19,7 @@ html,body{
 
 /* section cover */
 
-#cover{
-}
+
 
 .title-btn{
     margin: 0;
