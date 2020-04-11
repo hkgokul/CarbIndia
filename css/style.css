@@ -168,11 +168,10 @@ html,body{
 
 .footer{
     background-color: #222;
-    padding-top: 3%;
-    padding-bottom: 2%;
 }
 .foot{
     text-align: center;
+    padding-top: 3%;
 }
 .foot p{
     color: #888;
@@ -184,10 +183,7 @@ html,body{
     text-decoration: none;
     color: #888;
 }
-.social-link{
-    height: 140px   !important;
-    width: 140px    !important;
-}
+
 
 .fa-facebook{
     transition: 0.5s;
@@ -208,9 +204,9 @@ html,body{
     color: rgba(19,128,26,1);
     transition: 0.5s;
 
-
 }
 
+.foot
 
 
 
