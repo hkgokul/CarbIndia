@@ -184,10 +184,14 @@ html,body{
     text-decoration: none;
     color: #888;
 }
-
+.social-link{
+    height: 140px   !important;
+    width: 140px    !important;
+}
 
 .fa-facebook{
     transition: 0.5s;
+    
 }
 
 .fa-facebook:hover{
