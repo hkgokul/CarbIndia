@@ -12,9 +12,9 @@ html,body{
 }
 
 #cover{
-    background: url(../img/trees.jpg) center;
+    background: url(../img/glass.jpg) center;
     background-size: cover;
-    color: lemonchiffon;
+    color: indianred;
     height: 100%;
     margin: 0;
     text-align: center;
@@ -27,17 +27,17 @@ html,body{
 }
 
 
+
 .moto{
     padding-top: 18%;
-    text-align: center;
+    margin-right: 200px;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
 }
 
-.heading{
-    margin-left: 5%;
-    padding-top: 3%;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
+
+
 .subhead{
     margin-left: 16.5%;
     font-family: Nunito-Regular;
@@ -204,4 +204,61 @@ html,body{
     color: rgba(19,128,26,1);
     transition: 0.5s;
 
+}
+
+/* Section Cards */
+#section-cards{
+    padding: 5% 0;
+}
+h2{
+    text-align: center;
+}
+#section-cards p{
+    padding-left: 10px;
+}
+.card h4{
+    padding-top: 7%;
+}
+.card h6{
+    padding-bottom: 7%;
+}
+
+.card p{
+    padding-top: 6%;
+} 
+.card{
+    margin-top:12%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+
+.card a{
+    color: rgba(19,128,26,0.8);
+    
+    transition: 0.5s;
+
+
+}
+.card a:hover{
+    color: rgba(19,128,26,1);
+    transition: 0.5s;
+}
+
+.card img{
+  
+    margin-left: -5%;
+    transition: 0.5s;
+    height: 250px;
+}
+
+.card img:hover{
+    transform: scale(0.95);
+    transition: 0.5s;
+
+}
+
+#section-cards .col-sm-4{
+    padding-left: 0;
+    margin: 0;
+    margin-top: 0;
 }
