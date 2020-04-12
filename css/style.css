@@ -248,15 +248,14 @@ h2{
     transition: 0.5s;
 }
 
-.card a img{
+.card img{
   
     margin-left: -5%;
     transition: 0.5s;
     height: 250px;
-    width: 361px;
 }
 
-.card a img:hover{
+.card img:hover{
     transform: scale(0.95);
     transition: 0.5s;
 
