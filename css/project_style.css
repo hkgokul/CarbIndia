@@ -23,7 +23,7 @@ html,body{
     width: 100%;
     z-index: 1;
     height: 10vh;
-    overflow: hidden;
+    
 }
 
 .btn-srch{
@@ -58,12 +58,20 @@ html,body{
 .navbar-toggler{
     margin-left: 80vw !important;
     margin-right: 5% !important;
-    
      
 }
 .navbar-brand{
     font-size: 3vh;
     position: absolute;
+}
+
+.navbar-collapse{
+    background-color:#343a40;
+    opacity: 100;
+    
+    left: 0;
+    padding-left: 2%;
+    width: 100vw;
 }
 /* Secton Ptype */
 #ptype{
