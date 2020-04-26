@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html,body{
     height: 100%;
     font-size: 16px;
@@ -18,6 +22,7 @@ html,body{
     position: fixed;
     width: 100%;
     z-index: 1;
+    height: 10vh;
 }
 .btn-srch{
     background-color: rgba(0,0,0,0);
@@ -49,33 +54,35 @@ html,body{
 
 /* Secton Ptype */
 #ptype{
-    padding-top: 3%;
+    padding-top: +10vh;
+    
+    background-image: url(../img/pattern.jpg);
 }
+
 .section-projects{
     background-image: url(../img/pattern.jpg);
-    background-color: red;
-}
-#ptype .container{
+
     
 }
 #ptype .row{
     text-align: center;
-    padding: 4% 0 4% 0;
-    height: 600px
+    padding: 4% 0 0 0;
+    
+  
 }
 #ptype h2{
     padding-top: 6%;
 }
 
 #ptype .row img{
-    height: 180px;
-    width: 180px;
+    height: 150px;
+    width: 150px;
     padding-bottom: 10%;
 
 }
-#ptype .col-sm-3{
+#ptype .col-md-3{
     text-align: center;
-    padding-bottom: 5%;
+    
     
 }
 
@@ -107,6 +114,10 @@ html,body{
 
 .footer{
     background-color: #222;
+    margin: 0;
+    bottom: 0;
+   
+   
 }
 .foot{
     text-align: center;
