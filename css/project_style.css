@@ -64,7 +64,7 @@ html,body{
     height: 600px
 }
 #ptype h2{
-    padding-top: 3%;
+    padding-top: 6%;
 }
 
 #ptype .row img{
@@ -79,7 +79,14 @@ html,body{
     
 }
 
-
+#ptype p,h4{
+    font-family:Nunito-Regular ;
+}
+#ptype h4{
+    padding-top: 1%;
+    width: 12rem;
+    text-align: center;
+}
 
 
 
