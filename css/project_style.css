@@ -25,6 +25,7 @@ html,body{
     height: 10vh;
     overflow: hidden;
 }
+
 .btn-srch{
     background-color: rgba(0,0,0,0);
     border: 1px solid rgba(19,128,26,1);
@@ -43,8 +44,10 @@ html,body{
 }    
 
 #main-nav li a{
+    overflow: hidden;
     border-bottom: 1px  solid   rgba(19,128,26,0);
     transition: .5s;
+    
 }
 
 #main-nav li a:hover{
@@ -52,11 +55,16 @@ html,body{
     transition: .5s;
 }
 
-#navbar .icon{
-    display: none;
+.navbar-toggler{
+    margin-left: 80vw !important;
+    margin-right: 5% !important;
+    
      
 }
-
+.navbar-brand{
+    font-size: 3vh;
+    position: absolute;
+}
 /* Secton Ptype */
 #ptype{
     padding-top: +10vh;
@@ -160,3 +168,8 @@ html,body{
     transition: 0.5s;
 
 }
+
+
+
+/* Media query */
+
