@@ -92,6 +92,12 @@ html,body{
 }
 
 /* Navbar */
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
 .btn-srch{
     background-color: rgba(0,0,0,0);
     border: 1px solid rgba(19,128,26,1);
@@ -131,11 +137,9 @@ html,body{
     padding-left: 0;
     margin: 0;
 }
-.under-heading{
-    padding-top: 1%;
-    padding-bottom: 3%;
+#whyus .under-heading{
+    font-size: 100%;
 }
-
 .section-features{
     padding: 5rem 0;
     background-image: url(../img/whirlpool/whirlpool.png);
@@ -162,6 +166,9 @@ html,body{
     margin-bottom: 0.6rem;
     background-color: rgba(19,128,26,1);
     width: 5rem;
+}
+#whyus .fsrow{
+    padding: 2% 0 3% 0;
 }
 
 
@@ -208,10 +215,9 @@ html,body{
 }
 
 /* Section Cards */
+
 #section-cards{
     padding: 5% 0;
-    background-image: url(../img/bgt.jpg);
-    background-size: cover;
     color: black;
     padding-top: 5%;
 }

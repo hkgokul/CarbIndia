@@ -1,0 +1,104 @@
+html,body{
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Vollkorn', serif;
+    /* background: url(../img/pattern.jpg) center center; */
+}
+
+
+@font-face{
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
+}
+
+
+/* Navbar */
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.btn-srch{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgba(19,128,26,1);
+    margin-left: 3px;
+    color: rgba(19,128,26,1);
+    transition: .7s;
+}
+
+.btn-srch:hover,
+.btn-srch:focus,
+.btn-srch:active{
+    background-color: rgba(19,128,26,1);
+    border: 1px solid rgba(0,0,0,0);
+    color: black;
+    transition: .5s;
+}    
+
+#main-nav li a{
+    border-bottom: 1px  solid   rgba(19,128,26,0);
+    transition: .5s;
+}
+
+#main-nav li a:hover{
+    border-bottom: 1px  solid   rgba(19,128,26,1);
+    transition: .5s;
+}
+
+
+/* Section srevice list */
+
+#slist{
+    padding-top: 10%;
+    padding-left: 0;
+    margin-left: 0;
+    background-image: url(../img/pattern.jpg);
+}
+
+/* sectiontest */
+
+#test{
+    background-color: violet;
+}
+/* Section Footer */
+
+.footer{
+    background-color: #222;
+}
+.foot{
+    text-align: center;
+    padding-top: 3%;
+}
+.foot p{
+    color: #888;
+    font-size: 15px;
+}
+
+.social-link a:link,
+.social-link a:visited{
+    text-decoration: none;
+    color: #888;
+}
+
+
+.fa-facebook{
+    transition: 0.5s;
+    
+}
+
+.fa-facebook:hover{
+    color: #3b5998;
+    transition: 0.5s;
+}
+
+.fa-chevron-up{
+    color: #888;
+    transition: 0.5s;
+
+}
+.fa-chevron-up:hover{
+    color: rgba(19,128,26,1);
+    transition: 0.5s;
+
+}
