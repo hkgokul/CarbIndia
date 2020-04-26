@@ -79,13 +79,16 @@ html,body{
     
 }
 
-#ptype p,h4{
+#ptype p{
     font-family:Nunito-Regular ;
+    font-weight: lighter;
 }
 #ptype h4{
+    font-family:Nunito-Regular ;
     padding-top: 1%;
     width: 12rem;
     text-align: center;
+    padding-left: 1%;
 }
 
 
