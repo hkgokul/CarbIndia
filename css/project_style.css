@@ -23,6 +23,7 @@ html,body{
     width: 100%;
     z-index: 1;
     height: 10vh;
+    overflow: hidden;
 }
 .btn-srch{
     background-color: rgba(0,0,0,0);
@@ -51,6 +52,10 @@ html,body{
     transition: .5s;
 }
 
+#navbar .icon{
+    display: none;
+     
+}
 
 /* Secton Ptype */
 #ptype{
@@ -114,9 +119,9 @@ html,body{
 
 .footer{
     background-color: #222;
-    position: absolute;
+    padding-bottom: 0;
     bottom: 0;
-   width: 100%;
+    width: 100%;
    
 }
 .foot{
