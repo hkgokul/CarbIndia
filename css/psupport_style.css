@@ -77,30 +77,16 @@ html,body{
     font-size: 15px;
 }
 
-.social-link a:link,
-.social-link a:visited{
-    text-decoration: none;
-    color: #888;
+
+/* Spans */
+.bold-green{
+    color:rgba(19,128,26,1);
+}
+.green-underline{
+    color: chocolate;
+    border-bottom: solid springgreen 3px;
 }
 
-
-.fa-facebook{
-    transition: 0.5s;
-    
-}
-
-.fa-facebook:hover{
-    color: #3b5998;
-    transition: 0.5s;
-}
-
-.fa-chevron-up{
-    color: #888;
-    transition: 0.5s;
-
-}
-.fa-chevron-up:hover{
-    color: rgba(19,128,26,1);
-    transition: 0.5s;
-
+.bold-orange{
+    color: indianred;
 }

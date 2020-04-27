@@ -145,6 +145,16 @@ html,body{
 }
 
 
+/* Spans */
+.bold-green{
+    color:rgba(19,128,26,1);
+}
+.green-underline{
+    color: chocolate;
+    border-bottom: solid springgreen 3px;
+}
 
-/* Media query */
+.bold-orange{
+    color: indianred;
+}
 
