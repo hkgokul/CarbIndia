@@ -19,13 +19,12 @@ html,body{
 /* Navbar */
 
 .navbar{
+  
+.navbar{
     position: fixed;
     width: 100%;
     z-index: 1;
-    height: 10vh;
-    
 }
-
 .btn-srch{
     background-color: rgba(0,0,0,0);
     border: 1px solid rgba(19,128,26,1);
@@ -44,10 +43,8 @@ html,body{
 }    
 
 #main-nav li a{
-    overflow: hidden;
     border-bottom: 1px  solid   rgba(19,128,26,0);
     transition: .5s;
-    
 }
 
 #main-nav li a:hover{
@@ -55,24 +52,7 @@ html,body{
     transition: .5s;
 }
 
-.navbar-toggler{
-    margin-left: 80vw !important;
-    margin-right: 5% !important;
-     
-}
-.navbar-brand{
-    font-size: 3vh;
-    position: absolute;
-}
 
-.navbar-collapse{
-    background-color:#343a40;
-    opacity: 100;
-    
-    left: 0;
-    padding-left: 2%;
-    width: 100vw;
-}
 /* Secton Ptype */
 #ptype{
     padding-top: +10vh;
