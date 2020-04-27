@@ -15,22 +15,28 @@ html,body{
     background: url(../img/glass.jpg) center;
     background-size: cover;
     color: indianred;
-    height: 100%;
+    min-height: 100vh;
     margin: 0;
-    text-align: center;
+  
 }
 
 /* section cover */
-#cover a i{
-    margin: 0;
-    padding-top: 2%;
+#cover .container{
+    padding-right: 15%;
+    text-align: left;
+    padding-left: 5%;
 }
 
-
+.title-buttons .heading{
+    font-size: 95%;
+    color: rgba(19,128,26,1);
+    font-family: Nunito-Regular;
+    text-align: left;
+}
 
 .moto{
-    padding-top: 18%;
-    margin-right: 200px;
+    padding-top: 65%;
+    font-size: 200%;
     text-align: left;
     margin-left: 0;
     padding-left: 0;
@@ -38,12 +44,7 @@ html,body{
 
 
 
-.subhead{
-    margin-left: 16.5%;
-    font-family: Nunito-Regular;
-    padding-top: 0;
-    margin-top: 0;
-}
+
 
 /* Buttons */
 
@@ -221,12 +222,17 @@ html,body{
     color: black;
     padding-top: 5%;
 }
+
+.card-title,
+.card-subtitle,
+.card-link,
+.card-text{
+    padding-left: 5%;
+}
 h2{
     text-align: center;
 }
-#section-cards p{
-    padding-left: 10px;
-}
+
 .card h4{
     padding-top: 7%;
 }
@@ -239,7 +245,6 @@ h2{
 } 
 .card{
     margin-top:12%;
-    padding-left: 5%;
     padding-bottom: 3%;
 }
 
@@ -256,11 +261,12 @@ h2{
 }
 
 .card img{
-  
-    margin-left: -5%;
+    width: 100% !important;
+    object-fit: cover;
     transition: 0.5s;
     height: 250px;
 }
+
 
 .card img:hover{
     transform: scale(0.95);
