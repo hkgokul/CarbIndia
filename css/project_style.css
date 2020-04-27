@@ -82,7 +82,7 @@ html,body{
 
 .section-projects{
     background-image: url(../img/pattern.jpg);
-
+    padding-bottom: 6%;
     
 }
 #ptype .row{
