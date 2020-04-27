@@ -57,6 +57,12 @@ html,body{
     background-image: url(../img/pattern.jpg);
 }
 
+#slist .container{
+    padding-top: 10vh;
+}
+#slist h2{
+    padding-bottom: 4%;
+}
 /* sectiontest */
 
 #test{
