@@ -54,30 +54,31 @@ html,body{
 
 /* Secton Ptype */
 #ptype{
-    padding-top: +10vh;
-    
+     
     background-image: url(../img/pattern.jpg);
 }
 
 .section-projects{
     background-image: url(../img/pattern.jpg);
-    padding-bottom: 6%;
+    min-height: 100vh;
+    padding-bottom: 5%;
+    
     
 }
 #ptype .row{
     text-align: center;
-    padding: 4% 0 0 0;
     
   
 }
 #ptype h2{
-    padding-top: 6%;
+    padding-top: 14vh;
+    
 }
 
 #ptype .row img{
     height: 150px;
     width: 150px;
-    padding-bottom: 10%;
+    
 
 }
 #ptype .col-md-3{
@@ -92,22 +93,9 @@ html,body{
 }
 #ptype h4{
     font-family:Nunito-Regular ;
-    padding-top: 1%;
-    width: 12rem;
     text-align: center;
-    padding-left: 1%;
+    
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Section Footer */
