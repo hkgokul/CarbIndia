@@ -32,6 +32,12 @@ html,body{
     transition: .7s;
 }
 
+.navbar-brand img{
+    height: 8vh;
+    padding-left: 2vh;
+   
+}
+
 .btn-srch:hover,
 .btn-srch:focus,
 .btn-srch:active{

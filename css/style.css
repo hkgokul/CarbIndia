@@ -192,6 +192,8 @@ html,body{
     font-size: 15px;
 }
 
+
+
 .social-link a:link,
 .social-link a:visited{
     text-decoration: none;
@@ -223,9 +225,9 @@ html,body{
 /* Section Cards */
 
 #section-cards{
-    padding: 5% 0;
+    padding: 15vh 0;
     color: black;
-    padding-top: 5%;
+   
 }
 
 .card-title,
@@ -278,7 +280,14 @@ h2{
     transition: 0.5s;
 
 }
-
+.card-text i{
+    padding: 3px;
+    color: rgba(13, 92, 19, .9);
+}
+.card li{
+    font-family: 'Nunito-Regular';
+    font-size: 95%;
+}
 #section-cards .col-sm-4{
     padding-left: 0;
     margin: 0;
