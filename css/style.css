@@ -30,7 +30,7 @@ html,body{
 .title-buttons .heading{
     font-size: 95%;
     color: rgba(19,128,26,1);
-    font-family: Nunito-Regular;
+    font-family: 'Montserrat', sans-serif;
     text-align: left;
 }
 
@@ -165,7 +165,7 @@ html,body{
     transition: .3s;
 }
 .square p{
-    font-family: Nunito-Regular;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
 }
 .green-hr{
@@ -175,6 +175,9 @@ html,body{
 }
 #whyus .fsrow{
     padding: 2% 0 3% 0;
+}
+.desc{
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -235,11 +238,16 @@ html,body{
 .card-link,
 .card-text{
     padding-left: 5%;
+    padding-right: 5%;
 }
 h2{
     text-align: center;
 }
 
+.text-muted{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 94%;
+}
 .card h4{
     padding-top: 7%;
 }
@@ -257,7 +265,6 @@ h2{
 
 .card a{
     color: rgba(19,128,26,0.8);
-    
     transition: 0.5s;
 
 
@@ -280,12 +287,26 @@ h2{
     transition: 0.5s;
 
 }
+
+
 .card-text i{
-    padding: 3px;
-    color: rgba(13, 92, 19, .9);
+    font-size: 150%;
+    padding: 1vh;
 }
+.fa-skype{
+    color: rgb(0, 175, 240);
+    margin-left: 2%;
+}
+.fa-video{
+    color: rgba(34,138,230,1);
+}
+.fa-whatsapp{
+    color: rgb(18, 140, 126);
+}
+
+
 .card li{
-    font-family: 'Nunito-Regular';
+    font-family: 'Montserrat', sans-serif;
     font-size: 95%;
 }
 #section-cards .col-sm-4{

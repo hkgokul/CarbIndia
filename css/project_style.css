@@ -68,6 +68,7 @@ html,body{
     background-image: url(../img/pattern.jpg);
     min-height: 100vh;
     padding-bottom: 5%;
+    padding-top: 5%;
     
     
 }
@@ -94,13 +95,13 @@ html,body{
 }
 
 #ptype p{
-    font-family:Nunito-Regular ;
+    font-family: 'Exo', sans-serif;
     font-weight: lighter;
 }
 #ptype h4{
-    font-family:Nunito-Regular ;
-    text-align: center;
-    
+    font-family: 'Exo', sans-serif;
+    text-align: left;
+    padding-left: 3%;
 }
 
 
