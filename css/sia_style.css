@@ -85,21 +85,14 @@ html,body{
 #ptype .row img{
     height: 150px;
     width: 150px;
-}
+    
 
+}
 #ptype .col-md-3{
     text-align: center;
+    
+    
 }
-
-#ptype .link img:hover{
-        transform: scale(0.95);
-        transition: 0.5s;
-}
-
-#ptype .link img{
-    transition: 0.5s;
-}
-
 
 #ptype p{
     font-family: 'Exo', sans-serif;
@@ -110,6 +103,17 @@ html,body{
     text-align: left;
     padding-left: 3%;
 }
+
+#ptype img:hover{
+        transform: scale(0.95);
+        transition: 0.5s;
+}
+
+#ptype img{
+    transition: 0.5s;
+}
+
+
 
 
 /* Section Footer */
