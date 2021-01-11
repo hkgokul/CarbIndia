@@ -134,8 +134,16 @@ html,body{
 /* Section Features */
 /* Section Features */
 
+
+#whyus .section-features{
+    padding: 20vh 0;
+}
+
 #whyus{
     text-align: center;
+}
+# #whyus h2{
+    padding: 10vh 0 0 0;
 }
 .heading,
 .under-heading{
@@ -147,6 +155,7 @@ html,body{
     font-size: 100%;
 }
 .section-features{
+    
     padding: 5rem 0;
     background-image: url(../img/whirlpool/whirlpool.png);
     background-size: auto;
@@ -228,7 +237,7 @@ html,body{
 /* Section Cards */
 
 #section-cards{
-    padding: 15vh 0;
+    padding: 20vh 0;
     color: black;
    
 }
